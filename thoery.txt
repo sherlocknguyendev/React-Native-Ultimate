@@ -1,3 +1,10 @@
 
 - Expo framework: Cung cấp 1 cái khung có sẵn để mình code ReactNative dễ hơn (tuy nhiên phải tuân theo nó)
-- react-native-cli: Là mình tự điều khiển để code ra project của mình 
+- react-native-cli: Là mình tự điều khiển để code(tạo) ra project của mình 
+
+- Native Component: các component thuộc về Android và iOS (native platform)
+- Core Component: các component cốt lõi của React Native (quan trọng nhất)
+    -> Tất cả các component còn lại, đều được tạo nên từ những Core Component này
+
+- View Component: để dàn layout, nên chỉ cs thể set height, width,... và kh cs tính kế thừa
+- Text Component: để viết chữ,... bên trong; và cs thể kế thừa (text-text) 
